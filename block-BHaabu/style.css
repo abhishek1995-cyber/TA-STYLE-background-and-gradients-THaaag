@@ -1,0 +1,112 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+/* flex */
+.flex {
+    display: flex;
+}
+.space-btwn {
+    justify-content: space-between;
+}
+.space-around {
+    justify-content: space-around;
+}
+.align-item {
+    align-items: center;
+}
+.align-self {
+    align-self: center;
+}
+
+/* general */
+#body {
+    background: url('../block-BHaabu/nature.jpeg')no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.box {
+    width: 350px;
+    height: 260px;
+    margin: 40px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+.box-1 {
+    background-color: rgba(252, 4, 72, 1);
+}
+.box-2 {
+    background-image: linear-gradient(to left, rgba(252, 4, 72, 1), rgba(0, 0, 0, 1));
+}
+.box-3 {
+    background-image: radial-gradient( rgba(252, 4, 72, 1), rgba(0, 0, 0, 1));
+}
+.article-2 {
+    width: 90%;
+    height: 400px;
+    background: linear-gradient(rgba(155,65,66,0.7), rgba(155,65,66,0.7)), url(../block-BHaabu/beach\ city.jpeg) 50% 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
