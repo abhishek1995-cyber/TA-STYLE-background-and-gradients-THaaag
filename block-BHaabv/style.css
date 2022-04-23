@@ -1,0 +1,226 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom styles */
+
+ /* flex */
+
+ .flex {
+     display: flex;
+ }
+ .s-between {
+     justify-content: space-between;
+ }
+ .flex-wrap {
+     flex-wrap: wrap;
+ }
+ .s-around {
+     justify-content: space-around;
+ }
+ .justify-center {
+     justify-content: center;
+ }
+ .align-center {
+     align-items: center;
+ }
+ /* container & body */
+ .container {
+     width: 80%;
+     margin: 0 177px;
+ }
+ #body {
+     background-color: #1d2029;
+ }
+ /* general */
+
+ /* header */
+ 
+ .header {
+     color: white;
+     padding: 20px 0;
+ }
+ h1 {
+     font-size: 36px;
+     margin-bottom: 3px;
+ }
+ .switch {
+     width: 30px;
+     height: 12px;
+     border-radius: 33%;
+     background-image: linear-gradient(to left, rgba(70,148,203,1), rgba(66,203,151,1));
+     padding: 2px;
+     margin-left: 10px;
+ }
+ .dot {
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     background-color: #1d2029;
+ }
+ .header p {
+     font-size: small;
+ }
+ /* main */
+
+ /* box */
+ .box {
+     width: 22%;
+     height: 250px;
+     background-color: rgba(37, 43, 68, 1);
+     margin: 25px 0;
+     text-align: center;
+     border-radius: 3px;
+ }
+ .facebook-icon , .twitter-icon {
+    color: rgba(38, 142, 251, 1) ;
+}
+.instagram-icon  {
+    color:rgba(211,81,147,1) ; 
+} 
+.youtube-icon {
+    background-color: #c20529;
+    border-radius: 50%;
+    color: black;
+    font-size: 12px;
+    padding: 3px;
+} 
+
+ /* box1 & 2 */
+ .box-1 {
+    border-top: 4px solid rgba(38, 142, 251, 1);
+ }
+ .box-1-1 {
+     margin: 30px 0;
+     color: white;
+
+ }
+h2 {
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.box p {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: xx-small;
+    margin-bottom: 40px;
+}
+.bottom-icon {
+    color: rgba(66,203,151,1);
+    padding-top: 8px;
+}  
+.bottom-span {
+    color:rgba(66,203,151,1) ;
+}
+
+/* box3*/
+.box-3 {
+    position: relative;
+}
+
+.border-3 {
+    height: 4px;
+    width: 253px;
+    background: linear-gradient(to right,rgba(251,192,107,1), rgba(211,81,147,1));
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.box-3-1 {
+    margin: 30px 0;
+    color: white
+}
+.top-icon-3  {
+    color:rgba(211,81,147,1) ; 
+} 
+/* box-4 */
+
+.box-4 {
+    border-top: 4px solid #c20529;
+}
+.box-4-1 {
+    margin: 30px 0;
+    color: white;
+
+}
+.box-4-bottom-icon {
+    color: #c20529;
+} 
+.box-4-bottom-span {
+    color: #c20529 ;
+}
+/* bottom section */
+
+h3 {
+    font-size: 36px;
+    color: white;
+}
+.bottom-box {
+    width: 22%;
+    height: 150px;
+    background-color: rgba(37, 43, 68, 1);
+    margin: 25px 0;
+    border-radius: 3px;
+}
+.box-5 {
+    padding: 28px;
+    color: white;
+}
+h4 {
+    font-size: 36px;
+}
+.bottom {
+    margin-top: 40px;
+    text-align: center;
+}
+.bottom-box p {
+    text-transform: capitalize;
+    font-size: medium;
+}
+
+/* box6 */

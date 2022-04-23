@@ -1,0 +1,187 @@
+<!-- writeCode
+
+- Create a layout according to the design shown below.
+
+![Backgrounds and gradients level 2](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/background-and-gradients/ex-2.jpg)
+
+- Using CSS resets is necessary.
+
+- Use semantic tags and keep the nesting and indentation proper.
+
+- Work on typography in detail. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/e03b185f1b.js" crossorigin="anonymous"></script>
+</head>
+<body id="body">
+    <header>
+        <div class="flex s-between container header">
+            <div>
+                <strong><h1>Social Media Dashboard</h1></strong>
+                <p>Total followers: 23,004</p>
+            </div>
+            <div class="flex justify-center align-center">
+                <p> DARK MODE </p>
+                <div class="switch">
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class=" flex s-between ">
+                <article class="box box-1" >
+                    <div class="box-1-1">
+                        <a href=""><i class="fa-brands fa-facebook-square facebook-icon"></i></a>
+                        <span>@nathanf</span>
+                        <h2>1987</h2>
+                        <p>followers</p>
+                        <a href=""><i class="fa-solid fa-caret-up bottom-icon"></i></a>
+                        <span class="bottom-span">12 Today</span>
+                    </div>
+                </article>
+                <article class="box box-1">
+                <div class="box-1-1">
+                    <a href=""><i class="fa-brands fa-twitter twitter-icon"></i></a>
+                    <span>@nathanf</span>
+                        <h2>1044</h2>
+                        <p>followers</p>
+                        <a href=""><i class="fa-solid fa-caret-up bottom-icon"></i></a>
+                        <span class="bottom-span">99 Today</span>
+                </div>
+                </article>
+                <article class="box box-3">
+                    <div class="box-3-1">
+                        <span class="border-3"></span>
+                        <a href=""><i class=" instagram-icon fa-brands fa-instagram"></i></a>
+                        <span>@realnathanF</span>
+                        <h2>11K</h2>
+                        <p>FOLLOWERS</p>
+                        <a href=""><i class="fa-solid fa-caret-up bottom-icon"></i></a>
+                        <span class="bottom-span">1099 TODAY</span>
+
+                    </div>
+                </article>
+                <article class="box box-4">
+                    <div class="box-4-1">
+                        <a href=""><i class=" youtube-icon fa-brands fa-youtube"></i></a>
+                        <span>Nathan F.</span>
+                        <h2>8239</h2>
+                        <p>subscribers</p>
+                        <a href=""><i class=" box-4-bottom-icon fa-solid fa-sort-down"></i></a>
+                        <span class="box-4-bottom-span">144 Today</span>
+                    </div>
+                </article>
+        </section>
+        <!-- bottom 2 starts -->
+        <section>
+            <h3>Overview - Today</h3>
+            <div class="flex flex-wrap s-between">
+                <div class=" bottom-box ">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>Page Views</p>
+                            <a href=""><i class="fa-brands fa-facebook-square facebook-icon"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>87</h4>
+                            <a href=""><i class="fa-solid fa-caret-up bottom-icon"> 3%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>Likes</p>
+                            <a href=""><i class="fa-brands fa-facebook-square facebook-icon"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>52</h4>
+                            <a href=""><i class=" box-4-bottom-icon fa-solid fa-sort-down bottom-icon"> 2%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>Likes</p>
+                            <a href=""><i class=" instagram-icon fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>5462</h4>
+                            <a href=""><i class="fa-solid fa-caret-up bottom-icon"> 2257%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>PROFILE VIEWS</p>
+                            <a href=""><i class=" instagram-icon fa-brands fa-instagram"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>52K</h4>
+                            <a href=""><i class="fa-solid fa-caret-up bottom-icon"> 1375%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box ">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>RETWEETS</p>
+                            <a href=""><i class="fa-brands fa-twitter twitter-icon"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>117</h4>
+                            <a href=""><i class="fa-solid fa-caret-up bottom-icon"> 303%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>Likes</p>
+                            <a href=""><i class="fa-brands fa-twitter twitter-icon"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>507</h4>
+                            <a href=""><i class="fa-solid fa-caret-up bottom-icon"> 553%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box ">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>Likes</p>
+                            <a href=""><i class=" youtube-icon fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>107</h4>
+                            <a href=""><i class=" box-4-bottom-icon fa-solid fa-sort-down bottom-icon"> 19%</i></a>
+                        </div>
+                    </article>
+                </div>
+                <div class="bottom-box ">
+                    <article class="box-5">
+                        <div class="flex s-between">
+                            <p>TOTAL VIEWS</p>
+                            <a href=""><i class=" youtube-icon fa-brands fa-youtube"></i></a>
+                        </div>
+                        <div class="flex s-between bottom">
+                            <h4>14072</h4>
+                            <a href=""><i class=" box-4-bottom-icon fa-solid fa-sort-down bottom-icon"> 12%</i></a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
